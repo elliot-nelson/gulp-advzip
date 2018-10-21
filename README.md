@@ -1,4 +1,4 @@
-# gulp-advzip [![status](https://api.travis-ci.org/elliot-nelson/gulp-advzip.svg)](https://travis-ci.org/elliot-nelson/gulp-advzip)
+# gulp-advzip [![status](https://api.travis-ci.org/elliot-nelson/gulp-advzip.svg)](https://travis-ci.org/elliot-nelson/gulp-advzip)&nbsp;[![Coverage Status](https://coveralls.io/repos/github/elliot-nelson/gulp-advzip/badge.svg)](https://coveralls.io/github/elliot-nelson/gulp-advzip)
 
 > A gulp wrapper for AdvZIP: minify your zip files
 
