@@ -1,6 +1,6 @@
 {
   "name": "gulp-advzip",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A gulp wrapper for AdvZIP: minify your zip files",
   "license": "MIT",
   "repository": "elliot-nelson/gulp-advzip",
@@ -14,9 +14,7 @@
     "coveralls": "nyc --reporter=lcov jasmine && cat ./coverage/lcov.info | coveralls"
   },
   "files": [
-    "cli.js",
-    "index.js",
-    "lib"
+    "index.js"
   ],
   "keywords": [
     "gulp",
