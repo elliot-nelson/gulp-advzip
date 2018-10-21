@@ -1,0 +1,38 @@
+{
+  "name": "gulp-advzip",
+  "version": "1.0.0",
+  "description": "A gulp wrapper for AdvZIP: minify your zip files",
+  "license": "MIT",
+  "repository": "elliot-nelson/gulp-advzip",
+  "author": "Elliot Nelson",
+  "engines": {
+    "node": ">=4"
+  },
+  "scripts": {
+    "test": "jasmine"
+  },
+  "files": [
+    "cli.js",
+    "index.js",
+    "lib"
+  ],
+  "keywords": [
+    "gulp",
+    "gulpplugin",
+    "compress",
+    "minify",
+    "optimize",
+    "zip",
+    "advzip"
+  ],
+  "dependencies": {
+    "advzip-bin": "^1.0.0",
+    "gulp-intermediate": "^3.0.1",
+    "plugin-error": "^1.0.1"
+  },
+  "devDependencies": {
+    "jasmine": "^3.2.0",
+    "stream-buffer": "^1.0.0",
+    "stream-buffers": "^3.0.2"
+  }
+}

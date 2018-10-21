@@ -1,4 +1,4 @@
-# gulp-intermediate [![status](https://api.travis-ci.org/robwierzbowski/gulp-intermediate.svg)](https://travis-ci.org/robwierzbowski/gulp-intermediate)&nbsp;[![Coverage Status](https://coveralls.io/repos/github/robwierzbowski/gulp-intermediate/badge.svg)](https://coveralls.io/github/robwierzbowski/gulp-intermediate)&nbsp;[![dependencies](https://david-dm.org/robwierzbowski/gulp-intermediate.svg)](https://david-dm.org/robwierzbowski/gulp-intermediate)
+# gulp-intermediate [![status](https://api.travis-ci.org/elliot-nelson/gulp-advzip.svg)](https://travis-ci.org/elliot-nelson/gulp-advzip)
 
 > A gulp wrapper for AdvZIP: minify your zip files
 
