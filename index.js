@@ -1,3 +1,5 @@
+'use strict';
+
 const path = require('path');
 const advzipPath = require('advzip-bin');
 const PluginError = require('plugin-error');
@@ -33,8 +35,6 @@ function advzip(options) {
             while (string.indexOf(tempDir) > -1) {
                 string = string.replace(tempDir + path.sep, '');
             }
-
-            console.log(string);
             process.stdout.write(string);
         });
         p.on('close', code => {
