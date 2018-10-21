@@ -1,0 +1,48 @@
+# gulp-intermediate [![status](https://api.travis-ci.org/robwierzbowski/gulp-intermediate.svg)](https://travis-ci.org/robwierzbowski/gulp-intermediate)&nbsp;[![Coverage Status](https://coveralls.io/repos/github/robwierzbowski/gulp-intermediate/badge.svg)](https://coveralls.io/github/robwierzbowski/gulp-intermediate)&nbsp;[![dependencies](https://david-dm.org/robwierzbowski/gulp-intermediate.svg)](https://david-dm.org/robwierzbowski/gulp-intermediate)
+
+> A gulp wrapper for AdvZIP: minify your zip files
+
+## Install
+```sh
+$ npm install --save-dev gulp-advzip
+```
+
+## Usage
+
+```js
+const zip = require('gulp-zip');
+const advzip = require('gulp-advzip');
+
+gulp.task('zip', () => {
+    gulp.src(['my files...'])
+        .pipe(zip('archive.zip'))
+        .pipe(advzip())
+        .pipe(gulp.dest('out'));
+});
+```
+
+## API
+
+### advzip([options])
+
+#### options
+
+Type: `Object`
+
+##### optimizationLevel
+
+Type: `number`<br>
+
+Select an optimization level between `0` and `4`. Corresponds to command-line options `-0` through `-4`.
+
+##### iterations
+
+Type: `number`<br>
+
+Optionally specify an additional number of iterations to perform for optimization levels 3 and 4.
+May provide marginally better compression, at the cost of additional time.
+
+## License
+
+Licensed under MIT. [Full license here &raquo;](LICENSE.txt)
+
