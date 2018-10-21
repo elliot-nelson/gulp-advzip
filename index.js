@@ -34,6 +34,7 @@ function advzip(options) {
                 string = string.replace(tempDir + path.sep, '');
             }
 
+            console.log(string);
             process.stdout.write(string);
         });
         p.on('close', code => {

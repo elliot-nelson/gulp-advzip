@@ -12,6 +12,9 @@ describe('advzip', function () {
         spyOn(childProcess, 'spawn').and.callFake((command, args) => {
             process.nextTick(() => {
                 fs.writeFileSync(args[args.length - 1], 'crunched zip file', 'utf8');
+                this.tempfile = args[args.length - 1];
+                this.fakeProcess.stdout.emit('data', '    9566     9256  92% ' + this.tempfile);
+                this.fakeProcess.stdout.end();
                 this.fakeProcess.emit('close', 0);
             });
             return this.fakeProcess;

@@ -40,7 +40,8 @@ Select an optimization level between `0` and `4`. Corresponds to command-line op
 Type: `number`<br>
 
 Optionally specify an additional number of iterations to perform for optimization levels 3 and 4.
-May provide marginally better compression, at the cost of additional time.
+May provide marginally better compression, at the cost of additional time. Corresponds to command-line
+option '-i N'.
 
 ## License
 
