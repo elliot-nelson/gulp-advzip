@@ -10,4 +10,4 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Dependencies updated.
 
 [Unreleased]: https://github.com/elliot-nelson/gulp-advzip/compare/v1.1.0...HEAD
-[1.1.0]: https://github.com/elliot-nelson/gulp-advzip/compare/v1.0.0...v1.1.0
+[1.1.0]: https://github.com/elliot-nelson/gulp-advzip/compare/v1.0.1...v1.1.0
