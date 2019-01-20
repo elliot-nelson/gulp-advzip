@@ -6,8 +6,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
-## [1.1.0] - 2019-01-20
+## [1.2.0] - 2019-01-20
 - Dependencies updated.
 
-[Unreleased]: https://github.com/elliot-nelson/gulp-advzip/compare/v1.1.0...HEAD
-[1.1.0]: https://github.com/elliot-nelson/gulp-advzip/compare/v1.0.1...v1.1.0
+[Unreleased]: https://github.com/elliot-nelson/gulp-advzip/compare/v1.2.0...HEAD
+[1.2.0]: https://github.com/elliot-nelson/gulp-advzip/compare/v1.0.1...v1.2.0
