@@ -29,7 +29,7 @@ describe('advzip', function () {
                 cwd: 'cwd',
                 base: 'base',
                 path: 'base/archive.zip',
-                contents: new Buffer('a zip file'),
+                contents: Buffer.from('a zip file'),
                 stat: {}
             })
         ];
