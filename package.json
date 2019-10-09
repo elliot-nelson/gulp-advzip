@@ -26,15 +26,15 @@
     "advzip"
   ],
   "dependencies": {
-    "advzip-bin": "^1.1.0",
-    "gulp-intermediate": "^4.1.0",
+    "advzip-bin": "^2.0.0",
+    "gulp-intermediate": "^5.0.0",
     "plugin-error": "^1.0.1"
   },
   "devDependencies": {
-    "coveralls": "^3.0.2",
-    "jasmine": "^3.2.0",
+    "coveralls": "^3.0.6",
+    "jasmine": "^3.5.0",
     "mkdirp": "^0.5.1",
-    "nyc": "^13.1.0",
+    "nyc": "^14.1.1",
     "stream-buffers": "^3.0.2",
     "vinyl": "^2.2.0"
   }
